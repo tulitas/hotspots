@@ -23,6 +23,7 @@ public class HotspotsApplication {
         SpringApplication.run(HotspotsApplication.class, args);
         System.out.println("Run APP");
         int port = 5000;
+
         System.out.println("port: " + port);
 
         try (ServerSocket serverSocket = new ServerSocket(port);
